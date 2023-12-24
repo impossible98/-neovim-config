@@ -4,3 +4,5 @@ local set = vim.opt
 set.cursorline = true
 -- Same as :print, but precede each line with its line number.
 set.number = true
+-- Enables 24-bit RGB color in the TUI.
+set.termguicolors = true
